@@ -1,0 +1,61 @@
+
+public class Workshop1 {
+	/**
+	 * Retrieve the intensity value at location ('row', 'column') of the image 'img' and return it
+	 * Note: 
+	 * - the 2D image is stored as an 8bit, 1D, row-major array of type byte
+	 * - the data type byte is signed in Java
+	 * - Slide 27 of chapter 2 introduces the representation of an image
+	 * @param img in row major format
+	 * @param row to evaluate
+	 * @param column to evaluate
+	 * @param width of img
+	 * @param height of img
+	 * @return the intensity value at row and column if within bounds, -1 otherwise
+	 */
+	public int getIntensityValue(byte[] img, int row, int column, int width, int height) {
+			return -1;
+	}
+	
+	/**
+	 * Sets the pixels N8(row, column) to white. Note: 8-Neighbor is defined on slide 36 of chapter 2.
+	 * @param img with four neigbors of (row, column) set to white
+	 * @param row to evaluate
+	 * @param column to evaluate
+	 * @param width of img
+	 * @param height of img
+	 */
+	public void setEightNeighborsToWhite(byte[] img, int row, int column, int width, int height) {
+
+	}
+	
+	/**
+	 * Calculates the d4 distance between (p1Row, p1Column) and (p2Row, p2Column)
+	 * Note: D4 distance is defined on slide 41 of chapter 2.
+	 * @param img that will be unchanged
+	 * @param p1Row 
+	 * @param p1Column
+	 * @param p2Row
+	 * @param p2Column
+	 * @param width of img
+	 * @param height of img
+	 * @return the d4 distance between (p1Row, p1Column) and (p2Row, p2Column) 
+	 */
+	public int getD4Distance(byte[] img, int p1Row, int p1Column, int p2Row, int p2Column, int width, int height) {
+		return 0;
+	}
+	
+	/**
+	 * Marks the shortest m-path with white intensity values.
+	 * Note: m-path is defined on slide 38 of chapter 2.
+	 * @param img with the shortest MPath set to white with V = {0, ..., 127}.
+	 * @param p1Row
+	 * @param p1Column
+	 * @param p2Row
+	 * @param p2Column
+	 * @param width of img
+	 * @param height of img
+	 */
+	public void setShortestMPathToWhite(byte[] img, int p1Row, int p1Column, int p2Row, int p2Column, int width, int height) {
+	}
+}
